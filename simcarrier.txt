@@ -1,0 +1,5 @@
+from phonenumbers import carrier
+import phonenumbers
+a=input()
+service_pro=phonenumbers.parse(a)
+print(carrier.name_for_number(service_pro,"en"))
